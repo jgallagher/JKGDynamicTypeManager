@@ -1,0 +1,8 @@
+platform :ios, '7.0'
+
+xcodeproj "JKGDynamicTypeManager/JKGDynamicTypeManager.xcodeproj"
+
+target "JKGDynamicTypeManagerTests" do
+    pod "JKGDynamicTypeManager", :path => "../JKGDynamicTypeManager.podspec"
+    pod "Kiwi/XCTest"
+end
