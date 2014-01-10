@@ -1,7 +1,9 @@
+platform :ios, "7.0"
+xcodeproj "JKGDynamicTypeManagerExample/JKGDynamicTypeManagerExample.xcodeproj"
 pod "JKGDynamicTypeManager", :path => "../JKGDynamicTypeManager.podspec"
 
-target "Demo" do
-end
+#target "Demo" do
+#end
 
-target "DemoTests" do
-end
+#target "DemoTests" do
+#end

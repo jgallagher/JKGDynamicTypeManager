@@ -1,0 +1,356 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52CEEB4C187FB4240037259A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CEEB4B187FB4240037259A /* Foundation.framework */; };
+		52CEEB4E187FB4240037259A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CEEB4D187FB4240037259A /* CoreGraphics.framework */; };
+		52CEEB50187FB4240037259A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52CEEB4F187FB4240037259A /* UIKit.framework */; };
+		52CEEB56187FB4240037259A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 52CEEB54187FB4240037259A /* InfoPlist.strings */; };
+		52CEEB58187FB4240037259A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CEEB57187FB4240037259A /* main.m */; };
+		52CEEB5C187FB4240037259A /* JKGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CEEB5B187FB4240037259A /* JKGAppDelegate.m */; };
+		52CEEB5E187FB4240037259A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52CEEB5D187FB4240037259A /* Images.xcassets */; };
+		52CEEB7D187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52CEEB7B187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.m */; };
+		52CEEB7E187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52CEEB7C187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.xib */; };
+		FA7119112E1145E3A9C2E229 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF0BFE2AA5884ECCB749661F /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52CEEB48187FB4240037259A /* JKGDynamicTypeManagerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKGDynamicTypeManagerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52CEEB4B187FB4240037259A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		52CEEB4D187FB4240037259A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		52CEEB4F187FB4240037259A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		52CEEB53187FB4240037259A /* JKGDynamicTypeManagerExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JKGDynamicTypeManagerExample-Info.plist"; sourceTree = "<group>"; };
+		52CEEB55187FB4240037259A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		52CEEB57187FB4240037259A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52CEEB59187FB4240037259A /* JKGDynamicTypeManagerExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JKGDynamicTypeManagerExample-Prefix.pch"; sourceTree = "<group>"; };
+		52CEEB5A187FB4240037259A /* JKGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKGAppDelegate.h; sourceTree = "<group>"; };
+		52CEEB5B187FB4240037259A /* JKGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKGAppDelegate.m; sourceTree = "<group>"; };
+		52CEEB5D187FB4240037259A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52CEEB64187FB4240037259A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		52CEEB7A187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKGDynamicTypeManagerExampleViewController.h; sourceTree = "<group>"; };
+		52CEEB7B187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKGDynamicTypeManagerExampleViewController.m; sourceTree = "<group>"; };
+		52CEEB7C187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JKGDynamicTypeManagerExampleViewController.xib; sourceTree = "<group>"; };
+		DF0BFE2AA5884ECCB749661F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E92D4966C3D04AA8BD187E2A /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = ../Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52CEEB45187FB4240037259A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CEEB4E187FB4240037259A /* CoreGraphics.framework in Frameworks */,
+				52CEEB50187FB4240037259A /* UIKit.framework in Frameworks */,
+				52CEEB4C187FB4240037259A /* Foundation.framework in Frameworks */,
+				FA7119112E1145E3A9C2E229 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52CEEB3F187FB4240037259A = {
+			isa = PBXGroup;
+			children = (
+				52CEEB51187FB4240037259A /* JKGDynamicTypeManagerExample */,
+				52CEEB4A187FB4240037259A /* Frameworks */,
+				52CEEB49187FB4240037259A /* Products */,
+				E92D4966C3D04AA8BD187E2A /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		52CEEB49187FB4240037259A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52CEEB48187FB4240037259A /* JKGDynamicTypeManagerExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52CEEB4A187FB4240037259A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				52CEEB4B187FB4240037259A /* Foundation.framework */,
+				52CEEB4D187FB4240037259A /* CoreGraphics.framework */,
+				52CEEB4F187FB4240037259A /* UIKit.framework */,
+				52CEEB64187FB4240037259A /* XCTest.framework */,
+				DF0BFE2AA5884ECCB749661F /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52CEEB51187FB4240037259A /* JKGDynamicTypeManagerExample */ = {
+			isa = PBXGroup;
+			children = (
+				52CEEB5A187FB4240037259A /* JKGAppDelegate.h */,
+				52CEEB5B187FB4240037259A /* JKGAppDelegate.m */,
+				52CEEB7A187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.h */,
+				52CEEB7B187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.m */,
+				52CEEB7C187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.xib */,
+				52CEEB5D187FB4240037259A /* Images.xcassets */,
+				52CEEB52187FB4240037259A /* Supporting Files */,
+			);
+			path = JKGDynamicTypeManagerExample;
+			sourceTree = "<group>";
+		};
+		52CEEB52187FB4240037259A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52CEEB53187FB4240037259A /* JKGDynamicTypeManagerExample-Info.plist */,
+				52CEEB54187FB4240037259A /* InfoPlist.strings */,
+				52CEEB57187FB4240037259A /* main.m */,
+				52CEEB59187FB4240037259A /* JKGDynamicTypeManagerExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52CEEB47187FB4240037259A /* JKGDynamicTypeManagerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52CEEB74187FB4250037259A /* Build configuration list for PBXNativeTarget "JKGDynamicTypeManagerExample" */;
+			buildPhases = (
+				C3CBD973D3904E529FABD049 /* Check Pods Manifest.lock */,
+				52CEEB44187FB4240037259A /* Sources */,
+				52CEEB45187FB4240037259A /* Frameworks */,
+				52CEEB46187FB4240037259A /* Resources */,
+				4930F88946C846C7BAFB69AC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKGDynamicTypeManagerExample;
+			productName = JKGDynamicTypeManagerExample;
+			productReference = 52CEEB48187FB4240037259A /* JKGDynamicTypeManagerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52CEEB40187FB4240037259A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JKG;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "John Gallagher";
+			};
+			buildConfigurationList = 52CEEB43187FB4240037259A /* Build configuration list for PBXProject "JKGDynamicTypeManagerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 52CEEB3F187FB4240037259A;
+			productRefGroup = 52CEEB49187FB4240037259A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52CEEB47187FB4240037259A /* JKGDynamicTypeManagerExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52CEEB46187FB4240037259A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CEEB56187FB4240037259A /* InfoPlist.strings in Resources */,
+				52CEEB7E187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.xib in Resources */,
+				52CEEB5E187FB4240037259A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4930F88946C846C7BAFB69AC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3CBD973D3904E529FABD049 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52CEEB44187FB4240037259A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52CEEB58187FB4240037259A /* main.m in Sources */,
+				52CEEB7D187FB4BF0037259A /* JKGDynamicTypeManagerExampleViewController.m in Sources */,
+				52CEEB5C187FB4240037259A /* JKGAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		52CEEB54187FB4240037259A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52CEEB55187FB4240037259A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52CEEB72187FB4240037259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		52CEEB73187FB4240037259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52CEEB75187FB4250037259A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92D4966C3D04AA8BD187E2A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKGDynamicTypeManagerExample/JKGDynamicTypeManagerExample-Prefix.pch";
+				INFOPLIST_FILE = "JKGDynamicTypeManagerExample/JKGDynamicTypeManagerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		52CEEB76187FB4250037259A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E92D4966C3D04AA8BD187E2A /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JKGDynamicTypeManagerExample/JKGDynamicTypeManagerExample-Prefix.pch";
+				INFOPLIST_FILE = "JKGDynamicTypeManagerExample/JKGDynamicTypeManagerExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52CEEB43187FB4240037259A /* Build configuration list for PBXProject "JKGDynamicTypeManagerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CEEB72187FB4240037259A /* Debug */,
+				52CEEB73187FB4240037259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52CEEB74187FB4250037259A /* Build configuration list for PBXNativeTarget "JKGDynamicTypeManagerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52CEEB75187FB4250037259A /* Debug */,
+				52CEEB76187FB4250037259A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52CEEB40187FB4240037259A /* Project object */;
+}
